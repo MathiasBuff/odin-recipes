@@ -1,0 +1,55 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: inherit;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 32pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+p {
+    font-size: 12pt;
+}
+
+ul>li {
+    list-style: "- ";
+    margin: 5px auto;
+}
+
+img {
+    border: 4px solid black;
+    border-radius: 1em;
+}
+
+.description, .steps, .ingredients {
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 0px 10px;
+}
+
+.description {
+    background-color: aqua;
+    border-color: rgb(0, 177, 177);
+}
+
+.ingredients {
+    background-color: aquamarine;
+    border-color: rgb(85, 170, 142);
+}
+
+.steps {
+    background-color: coral;
+    border-color: rgb(179, 88, 55);
+}
+
+div.homelink-container {
+    text-align: right;
+}
